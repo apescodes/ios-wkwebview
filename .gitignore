@@ -1,0 +1,444 @@
+Pods/Manifest.lock
+Pods/APDAppLovinAdapter/Dummy.swift
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/libAPDAppLovinAdapter.a
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/AppLovinSDK
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Info.plist
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdDisplayDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdLoadDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdRewardDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdSize.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdType.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdUpdateDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdVideoPlaybackDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdView.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdViewEventDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCCommunicator.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCEntity.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCMessage.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCMessagingService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCPublisher.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALCSubscriber.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALErrorCodes.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALEventService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALEventTypes.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALIncentivizedInterstitialAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALInterstitialAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALMediationProvider.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALNativeAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALNativeAdLoadDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALNativeAdPrecacheDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALNativeAdService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALPostbackDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALPostbackService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALPrivacySettings.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALSdk.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALSdkConfiguration.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALSdkSettings.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALUserService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALVariableService.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/AppLovinSDK.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAAdDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAAdFormat.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAAdView.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAAdViewAdDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAErrorCodes.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAInterstitialAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MAReward.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MARewardedAd.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/MARewardedAdDelegate.h
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Modules/module.modulemap
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/Assets.car
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/Info.plist
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/mute.aiff
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/Info.plist
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/objects-11.0+.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/runtime.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/objects-11.0+.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/runtime.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALMediationDebuggerViewController.storyboardc/Info.plist
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALMediationDebuggerViewController.storyboardc/ALMediationDebuggerViewController.nib/objects-11.0+.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALMediationDebuggerViewController.storyboardc/ALMediationDebuggerViewController.nib/runtime.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALMediationDebuggerViewController.storyboardc/XO1-EA-NYu-view-AeQ-kx-j7l.nib/objects-11.0+.nib
+Pods/APDAppLovinAdapter/APDAppLovinAdapter.embeddedframework/Resources/AppLovinSDKResources.bundle/ALMediationDebuggerViewController.storyboardc/XO1-EA-NYu-view-AeQ-kx-j7l.nib/runtime.nib
+Pods/APDAppodealAdExchangeAdapter/Dummy.swift
+Pods/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter.embeddedframework/libAPDAppodealAdExchangeAdapter.a
+Pods/APDGoogleAdMobAdapter/Dummy.swift
+Pods/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter.embeddedframework/libAPDGoogleAdMobAdapter.a
+Pods/APDYandexAdapter/Dummy.swift
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/libAPDYandexAdapter.a
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/YandexMobileAds
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YandexMobileAds-umbrella.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YandexMobileAds.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YandexMobileNativeAds.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YandexMobileVASTAds.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAAdRequest.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAAdSize.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAAdView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMABlock.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMABlocksInfo.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMACreative.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMADeviceTypes.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAErrors.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAGender.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAIcon.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAInterstitialController.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMALog.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAMediaFile.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAMobileAds.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdAssets.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdDelegate.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdErrors.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdImage.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdLoader.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdLoaderConfiguration.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdMedia.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdTypes.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAppInstallAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAppInstallAdView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAssetsAppearance.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeBannerView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeContentAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeContentAdView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeGenericAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeImageAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeImageAdView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeImageLoadingObserver.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeMediaView.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeTemplateAppearance.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMARating.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAReward.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMARewardedAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVASTAd.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVASTErrors.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVASTRequestConfiguration.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVASTTracker.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVersion.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVideoAdLoader.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVideoAdsRequest.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVideoController.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVideoDelegate.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAP.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPAdBreak.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPAdSource.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPBreakID.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPBreakType.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPErrors.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPExtension.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPLoader.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPRequestConfiguration.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAVMAPTimeOffset.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMAYandexVASTAds.h
+Pods/APDYandexAdapter/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Modules/module.modulemap
+Pods/Appodeal/LICENSE.md
+Pods/Appodeal/Appodeal.framework/Appodeal
+Pods/Appodeal/Appodeal.framework/Headers/APDBannerView.h
+Pods/Appodeal/Appodeal.framework/Headers/APDDefines.h
+Pods/Appodeal/Appodeal.framework/Headers/APDImage.h
+Pods/Appodeal/Appodeal.framework/Headers/APDInterstitialAd.h
+Pods/Appodeal/Appodeal.framework/Headers/APDMRECView.h
+Pods/Appodeal/Appodeal.framework/Headers/APDNativeAd.h
+Pods/Appodeal/Appodeal.framework/Headers/APDNativeAdQueue.h
+Pods/Appodeal/Appodeal.framework/Headers/APDNativeAdSettings.h
+Pods/Appodeal/Appodeal.framework/Headers/APDNativeAdViewProtocol.h
+Pods/Appodeal/Appodeal.framework/Headers/APDRewardedVideo.h
+Pods/Appodeal/Appodeal.framework/Headers/APDRewardProtocol.h
+Pods/Appodeal/Appodeal.framework/Headers/APDSdk.h
+Pods/Appodeal/Appodeal.framework/Headers/APDUserInfo.h
+Pods/Appodeal/Appodeal.framework/Headers/APDUserInfoProtocol.h
+Pods/Appodeal/Appodeal.framework/Headers/Appodeal.h
+Pods/Appodeal/Appodeal.framework/Modules/module.modulemap
+Pods/Google-Mobile-Ads-SDK/LICENSE
+Pods/Google-Mobile-Ads-SDK/README.txt
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/GoogleMobileAds
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPBannerView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPInterstitial.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPRequest.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdChoicesView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdFormat.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoader.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdMetadata.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdReward.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdSize.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdValue.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAppOpenAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADBannerView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDelayedAdRenderingOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDisplayAdMeasurement.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADExtras.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADFullScreenContentDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInAppPurchase.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInitializationStatus.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInstreamAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInstreamAdView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInterstitial.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaAspectRatio.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaContent.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMobileAds.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMuteThisAdReason.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImage.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdMediaAdLoaderOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeMuteThisAdLoaderOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADPresentationError.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequest.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequestConfiguration.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequestError.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADResponseInfo.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAdDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAdMetadataDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADSearchBannerView.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADServerSideVerificationOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+ConfirmationClick.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+CustomClickGesture.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdUnconfirmedClickDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoController.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoOptions.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GoogleMobileAds.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdapter.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdConfiguration.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdEventDelegate.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdSize.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationBannerAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationInterstitialAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationNativeAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationRewardedAd.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationServerConfiguration.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADVersionNumber.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBAdapter.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBRequestParameters.h
+Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Modules/module.modulemap
+Pods/GoogleUtilities/README.md
+Pods/GoogleUtilities/GoogleUtilities/LICENSE
+Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m
+Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h
+Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h
+Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULApplication.h
+Pods/GoogleUtilities/GoogleUtilities/Common/GULLoggerCodes.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/GULHeartbeatDateStorage.m
+Pods/GoogleUtilities/GoogleUtilities/Environment/GULSecureCoding.m
+Pods/GoogleUtilities/GoogleUtilities/Environment/Private/GULAppEnvironmentUtil.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/Private/GULHeartbeatDateStorage.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/Private/GULKeychainStorage.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/Private/GULKeychainUtils.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/Private/GULSecureCoding.h
+Pods/GoogleUtilities/GoogleUtilities/Environment/SecureStorage/GULKeychainStorage.m
+Pods/GoogleUtilities/GoogleUtilities/Environment/SecureStorage/GULKeychainUtils.m
+Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m
+Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m
+Pods/GoogleUtilities/GoogleUtilities/Logger/Private/GULLogger.h
+Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GULLoggerLevel.h
+Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/GULSwizzler.m
+Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h
+Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h
+Pods/GoogleUtilities/GoogleUtilities/Network/GULMutableDictionary.m
+Pods/GoogleUtilities/GoogleUtilities/Network/GULNetwork.m
+Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkConstants.m
+Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkURLSession.m
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULMutableDictionary.h
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetwork.h
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkConstants.h
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkMessageCode.h
+Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkURLSession.h
+Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.m
+Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Private/GULNSDataInternal.h
+Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GULNSData+zlib.h
+Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h
+Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker.m
+Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h
+Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h
+Pods/GoogleUtilities/GoogleUtilities/SceneDelegateSwizzler/GULSceneDelegateSwizzler.m
+Pods/GoogleUtilities/GoogleUtilities/SceneDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h
+Pods/GoogleUtilities/GoogleUtilities/SceneDelegateSwizzler/Private/GULSceneDelegateSwizzler.h
+Pods/nanopb/LICENSE.txt
+Pods/nanopb/pb.h
+Pods/nanopb/pb_common.c
+Pods/nanopb/pb_common.h
+Pods/nanopb/pb_decode.c
+Pods/nanopb/pb_decode.h
+Pods/nanopb/pb_encode.c
+Pods/nanopb/pb_encode.h
+Pods/nanopb/README.md
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/APDAppLovinAdapter.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/APDAppodealAdExchangeAdapter.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/APDGoogleAdMobAdapter.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/APDYandexAdapter.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/Appodeal.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/Google-Mobile-Ads-SDK.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/Pods-ios-web-client.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/nyavornytskyi.xcuserdatad/xcschemes/YandexMobileMetrica.xcscheme
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/AppleReceiptValidator.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/CompleteTransactionsController.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/InAppProductQueryRequest.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/InAppReceipt.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/InAppReceiptRefreshRequest.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/InAppReceiptVerificator.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/OS.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/PaymentQueueController.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/PaymentsController.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/ProductsInfoController.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/RestorePurchasesController.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/SKProduct+LocalizedPrice.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/SKProductDiscount+LocalizedPrice.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/SwiftyStoreKit+Types.swift
+Pods/SwiftyStoreKit/Sources/SwiftyStoreKit/SwiftyStoreKit.swift
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter-dummy.m
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter-Info.plist
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter-prefix.pch
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter-umbrella.h
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter.debug.xcconfig
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter.modulemap
+Pods/Target Support Files/APDAppLovinAdapter/APDAppLovinAdapter.release.xcconfig
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter-dummy.m
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter-Info.plist
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter-prefix.pch
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter-umbrella.h
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter.debug.xcconfig
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter.modulemap
+Pods/Target Support Files/APDAppodealAdExchangeAdapter/APDAppodealAdExchangeAdapter.release.xcconfig
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter-dummy.m
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter-Info.plist
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter-prefix.pch
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter-umbrella.h
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter.debug.xcconfig
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter.modulemap
+Pods/Target Support Files/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter.release.xcconfig
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter-dummy.m
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter-Info.plist
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter-prefix.pch
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter-umbrella.h
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter.debug.xcconfig
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter.modulemap
+Pods/Target Support Files/APDYandexAdapter/APDYandexAdapter.release.xcconfig
+Pods/Target Support Files/Appodeal/Appodeal.debug.xcconfig
+Pods/Target Support Files/Appodeal/Appodeal.release.xcconfig
+Pods/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK.debug.xcconfig
+Pods/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK.release.xcconfig
+Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.debug.xcconfig
+Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.release.xcconfig
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities-dummy.m
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities-umbrella.h
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.debug.xcconfig
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.modulemap
+Pods/Target Support Files/GoogleUtilities/GoogleUtilities.release.xcconfig
+Pods/Target Support Files/nanopb/nanopb-dummy.m
+Pods/Target Support Files/nanopb/nanopb-Info.plist
+Pods/Target Support Files/nanopb/nanopb-prefix.pch
+Pods/Target Support Files/nanopb/nanopb-umbrella.h
+Pods/Target Support Files/nanopb/nanopb.debug.xcconfig
+Pods/Target Support Files/nanopb/nanopb.modulemap
+Pods/Target Support Files/nanopb/nanopb.release.xcconfig
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-acknowledgements.markdown
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-acknowledgements.plist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-dummy.m
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks.sh
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-Info.plist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources.sh
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-umbrella.h
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client.debug.xcconfig
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client.modulemap
+Pods/Target Support Files/Pods-ios-web-client/Pods-ios-web-client.release.xcconfig
+Pods/Target Support Files/PromisesObjC/PromisesObjC-dummy.m
+Pods/Target Support Files/PromisesObjC/PromisesObjC-Info.plist
+Pods/Target Support Files/PromisesObjC/PromisesObjC-umbrella.h
+Pods/Target Support Files/PromisesObjC/PromisesObjC.debug.xcconfig
+Pods/Target Support Files/PromisesObjC/PromisesObjC.modulemap
+Pods/Target Support Files/PromisesObjC/PromisesObjC.release.xcconfig
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit-dummy.m
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit-umbrella.h
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit.debug.xcconfig
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap
+Pods/Target Support Files/SwiftyStoreKit/SwiftyStoreKit.release.xcconfig
+Pods/Target Support Files/YandexMobileMetrica/YandexMobileMetrica.debug.xcconfig
+Pods/Target Support Files/YandexMobileMetrica/YandexMobileMetrica.release.xcconfig
+Pods/YandexMobileMetrica/helper
+Pods/YandexMobileMetrica/LICENSE.md
+Pods/YandexMobileMetrica/README.md
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Headers
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/YandexMobileMetrica
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Modules/module.modulemap
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/Current
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/YandexMobileMetrica
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica-umbrella.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YandexMobileMetrica.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMCompletionBlocks.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMError.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMErrorRepresentable.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMProfileAttribute.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMReporterConfiguration.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMRevenueInfo.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMUserProfile.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMVersion.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetrica.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaConfiguration.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaPreloadInfo.h
+Pods/YandexMobileMetrica/static/YandexMobileMetrica.framework/Versions/A/Headers/YMMYandexMetricaReporting.h
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/Headers
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/YandexMobileMetricaCrashes
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/Modules/module.modulemap
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/Versions/Current
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/Versions/A/YandexMobileMetricaCrashes
+Pods/YandexMobileMetrica/static/YandexMobileMetricaCrashes.framework/Versions/A/Headers/YandexMobileMetricaCrashes-umbrella.h

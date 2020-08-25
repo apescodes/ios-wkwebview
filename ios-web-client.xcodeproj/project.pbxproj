@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303A1B0424EE7ABA007ED513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B0324EE7ABA007ED513 /* AppDelegate.swift */; };
+		303A1B0824EE7ABA007ED513 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B0724EE7ABA007ED513 /* MainViewController.swift */; };
+		303A1B0B24EE7ABA007ED513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303A1B0924EE7ABA007ED513 /* Main.storyboard */; };
+		303A1B0D24EE7ABC007ED513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303A1B0C24EE7ABC007ED513 /* Assets.xcassets */; };
+		303A1B1024EE7ABC007ED513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303A1B0E24EE7ABC007ED513 /* LaunchScreen.storyboard */; };
+		303A1B1A24EE7E6C007ED513 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B1924EE7E6C007ED513 /* API.swift */; };
+		303A1B1D24EEE92C007ED513 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B1C24EEE92C007ED513 /* UIViewController+Alert.swift */; };
+		303A1B2324EF0EAB007ED513 /* ReachabilityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B2224EF0EAB007ED513 /* ReachabilityHandler.swift */; };
+		303A1B2524EF0FD8007ED513 /* SetupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B2424EF0FD8007ED513 /* SetupService.swift */; };
+		303A1B2624EF16BB007ED513 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B2024EF0E86007ED513 /* Reachability.swift */; };
+		303A1B2F24EFDCB4007ED513 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B2E24EFDCB3007ED513 /* Purchase.swift */; };
+		303A1B3124EFDDA8007ED513 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B3024EFDDA8007ED513 /* Typealias.swift */; };
+		303A1B3424F0175A007ED513 /* ADService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B3324F0175A007ED513 /* ADService.swift */; };
+		303A1B3624F017D2007ED513 /* InterstialAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B3524F017D2007ED513 /* InterstialAD.swift */; };
+		303A1B3824F01B81007ED513 /* WebViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B3724F01B81007ED513 /* WebViewBridge.swift */; };
+		303A1B3A24F023B7007ED513 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303A1B3924F023B6007ED513 /* UIApplication+Extension.swift */; };
+		30CD8D2F24F3DA1D00F6F66A /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD8D2E24F3DA1D00F6F66A /* Analytics.swift */; };
+		30CD8D3124F3DA5800F6F66A /* YandexMetricaAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD8D3024F3DA5800F6F66A /* YandexMetricaAnalytics.swift */; };
+		30CD8D3424F44F6300F6F66A /* CaseRoyaleWebBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD8D3324F44F6300F6F66A /* CaseRoyaleWebBridge.swift */; };
+		30CD8D3B24F4616A00F6F66A /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 30CD8D3724F4616A00F6F66A /* app.js */; };
+		30CD8D3C24F4616A00F6F66A /* disconnected.html in Resources */ = {isa = PBXBuildFile; fileRef = 30CD8D3924F4616A00F6F66A /* disconnected.html */; };
+		30CD8D3D24F4616A00F6F66A /* technical-work.html in Resources */ = {isa = PBXBuildFile; fileRef = 30CD8D3A24F4616A00F6F66A /* technical-work.html */; };
+		30EF8C5224F07FD200B565FE /* RewardedVideoAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF8C5124F07FD200B565FE /* RewardedVideoAD.swift */; };
+		30EF8C5524F0830E00B565FE /* BillingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF8C5424F0830E00B565FE /* BillingService.swift */; };
+		FBC0222D6652720AE8E8457A /* Pods_ios_web_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5757EA61F65B958D39AC1C8D /* Pods_ios_web_client.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		303A1B0024EE7ABA007ED513 /* ios-web-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-web-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303A1B0324EE7ABA007ED513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303A1B0724EE7ABA007ED513 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		303A1B0A24EE7ABA007ED513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303A1B0C24EE7ABC007ED513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303A1B0F24EE7ABC007ED513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303A1B1124EE7ABC007ED513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303A1B1924EE7E6C007ED513 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		303A1B1C24EEE92C007ED513 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		303A1B2024EF0E86007ED513 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		303A1B2224EF0EAB007ED513 /* ReachabilityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityHandler.swift; sourceTree = "<group>"; };
+		303A1B2424EF0FD8007ED513 /* SetupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupService.swift; sourceTree = "<group>"; };
+		303A1B2E24EFDCB3007ED513 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		303A1B3024EFDDA8007ED513 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		303A1B3324F0175A007ED513 /* ADService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADService.swift; sourceTree = "<group>"; };
+		303A1B3524F017D2007ED513 /* InterstialAD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstialAD.swift; sourceTree = "<group>"; };
+		303A1B3724F01B81007ED513 /* WebViewBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewBridge.swift; sourceTree = "<group>"; };
+		303A1B3924F023B6007ED513 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		30CD8D2E24F3DA1D00F6F66A /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		30CD8D3024F3DA5800F6F66A /* YandexMetricaAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexMetricaAnalytics.swift; sourceTree = "<group>"; };
+		30CD8D3324F44F6300F6F66A /* CaseRoyaleWebBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseRoyaleWebBridge.swift; sourceTree = "<group>"; };
+		30CD8D3724F4616A00F6F66A /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		30CD8D3924F4616A00F6F66A /* disconnected.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disconnected.html; sourceTree = "<group>"; };
+		30CD8D3A24F4616A00F6F66A /* technical-work.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "technical-work.html"; sourceTree = "<group>"; };
+		30EF8C5124F07FD200B565FE /* RewardedVideoAD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedVideoAD.swift; sourceTree = "<group>"; };
+		30EF8C5424F0830E00B565FE /* BillingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingService.swift; sourceTree = "<group>"; };
+		5757EA61F65B958D39AC1C8D /* Pods_ios_web_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_web_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0AA1BDD74774EADD13A92E /* Pods-ios-web-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-web-client.debug.xcconfig"; path = "Target Support Files/Pods-ios-web-client/Pods-ios-web-client.debug.xcconfig"; sourceTree = "<group>"; };
+		E404ADA46017520D3C449717 /* Pods-ios-web-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-web-client.release.xcconfig"; path = "Target Support Files/Pods-ios-web-client/Pods-ios-web-client.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303A1AFD24EE7AB9007ED513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC0222D6652720AE8E8457A /* Pods_ios_web_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286DE1FFA3D75A3FDC32AB63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA0AA1BDD74774EADD13A92E /* Pods-ios-web-client.debug.xcconfig */,
+				E404ADA46017520D3C449717 /* Pods-ios-web-client.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		303A1AF724EE7AB9007ED513 = {
+			isa = PBXGroup;
+			children = (
+				303A1B0224EE7ABA007ED513 /* ios-web-client */,
+				303A1B0124EE7ABA007ED513 /* Products */,
+				286DE1FFA3D75A3FDC32AB63 /* Pods */,
+				D3B1EFE993EE7949805043C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303A1B0124EE7ABA007ED513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B0024EE7ABA007ED513 /* ios-web-client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303A1B0224EE7ABA007ED513 /* ios-web-client */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B1724EE7E3B007ED513 /* Application */,
+				30CD8D3E24F4620A00F6F66A /* Controller */,
+				303A1B1E24EF0E68007ED513 /* Service */,
+				303A1B1824EE7E51007ED513 /* Common */,
+				303A1B1B24EEE916007ED513 /* Extension */,
+				303A1B1124EE7ABC007ED513 /* Info.plist */,
+				30CD8D3524F4614C00F6F66A /* Resources */,
+				303A1B0C24EE7ABC007ED513 /* Assets.xcassets */,
+			);
+			path = "ios-web-client";
+			sourceTree = "<group>";
+		};
+		303A1B1724EE7E3B007ED513 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B0324EE7ABA007ED513 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		303A1B1824EE7E51007ED513 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B1924EE7E6C007ED513 /* API.swift */,
+				303A1B3024EFDDA8007ED513 /* Typealias.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		303A1B1B24EEE916007ED513 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B1C24EEE92C007ED513 /* UIViewController+Alert.swift */,
+				303A1B3924F023B6007ED513 /* UIApplication+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		303A1B1E24EF0E68007ED513 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				30CD8D3224F44F4800F6F66A /* WebBridge */,
+				30CD8D2D24F3DA0100F6F66A /* Analytics */,
+				30EF8C5324F082FB00B565FE /* Billing */,
+				303A1B3224F01734007ED513 /* AD */,
+				303A1B1F24EF0E70007ED513 /* Reachability */,
+				303A1B2424EF0FD8007ED513 /* SetupService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		303A1B1F24EF0E70007ED513 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B2024EF0E86007ED513 /* Reachability.swift */,
+				303A1B2224EF0EAB007ED513 /* ReachabilityHandler.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		303A1B3224F01734007ED513 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				30EF8C4E24F0795900B565FE /* Appodeal */,
+				303A1B3324F0175A007ED513 /* ADService.swift */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		30CD8D2D24F3DA0100F6F66A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				30CD8D2E24F3DA1D00F6F66A /* Analytics.swift */,
+				30CD8D3024F3DA5800F6F66A /* YandexMetricaAnalytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		30CD8D3224F44F4800F6F66A /* WebBridge */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B3724F01B81007ED513 /* WebViewBridge.swift */,
+				30CD8D3324F44F6300F6F66A /* CaseRoyaleWebBridge.swift */,
+			);
+			path = WebBridge;
+			sourceTree = "<group>";
+		};
+		30CD8D3524F4614C00F6F66A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30CD8D3624F4616A00F6F66A /* js */,
+				30CD8D3824F4616A00F6F66A /* pages */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30CD8D3624F4616A00F6F66A /* js */ = {
+			isa = PBXGroup;
+			children = (
+				30CD8D3724F4616A00F6F66A /* app.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		30CD8D3824F4616A00F6F66A /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				30CD8D3924F4616A00F6F66A /* disconnected.html */,
+				30CD8D3A24F4616A00F6F66A /* technical-work.html */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		30CD8D3E24F4620A00F6F66A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B0E24EE7ABC007ED513 /* LaunchScreen.storyboard */,
+				303A1B0924EE7ABA007ED513 /* Main.storyboard */,
+				303A1B0724EE7ABA007ED513 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30EF8C4E24F0795900B565FE /* Appodeal */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B3524F017D2007ED513 /* InterstialAD.swift */,
+				30EF8C5124F07FD200B565FE /* RewardedVideoAD.swift */,
+			);
+			path = Appodeal;
+			sourceTree = "<group>";
+		};
+		30EF8C5324F082FB00B565FE /* Billing */ = {
+			isa = PBXGroup;
+			children = (
+				303A1B2E24EFDCB3007ED513 /* Purchase.swift */,
+				30EF8C5424F0830E00B565FE /* BillingService.swift */,
+			);
+			path = Billing;
+			sourceTree = "<group>";
+		};
+		D3B1EFE993EE7949805043C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5757EA61F65B958D39AC1C8D /* Pods_ios_web_client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303A1AFF24EE7AB9007ED513 /* ios-web-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303A1B1424EE7ABC007ED513 /* Build configuration list for PBXNativeTarget "ios-web-client" */;
+			buildPhases = (
+				AC9C178A0549401151DF2340 /* [CP] Check Pods Manifest.lock */,
+				303A1AFC24EE7AB9007ED513 /* Sources */,
+				303A1AFD24EE7AB9007ED513 /* Frameworks */,
+				303A1AFE24EE7AB9007ED513 /* Resources */,
+				0E6FC9BBDE246A65D994360C /* [CP] Embed Pods Frameworks */,
+				9F380D11F51919DDE509B367 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-web-client";
+			productName = "ios-web-client";
+			productReference = 303A1B0024EE7ABA007ED513 /* ios-web-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303A1AF824EE7AB9007ED513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = apescodes;
+				TargetAttributes = {
+					303A1AFF24EE7AB9007ED513 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 303A1AFB24EE7AB9007ED513 /* Build configuration list for PBXProject "ios-web-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303A1AF724EE7AB9007ED513;
+			productRefGroup = 303A1B0124EE7ABA007ED513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303A1AFF24EE7AB9007ED513 /* ios-web-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303A1AFE24EE7AB9007ED513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303A1B1024EE7ABC007ED513 /* LaunchScreen.storyboard in Resources */,
+				30CD8D3D24F4616A00F6F66A /* technical-work.html in Resources */,
+				30CD8D3C24F4616A00F6F66A /* disconnected.html in Resources */,
+				303A1B0D24EE7ABC007ED513 /* Assets.xcassets in Resources */,
+				30CD8D3B24F4616A00F6F66A /* app.js in Resources */,
+				303A1B0B24EE7ABA007ED513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E6FC9BBDE246A65D994360C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F380D11F51919DDE509B367 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-web-client/Pods-ios-web-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9C178A0549401151DF2340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-web-client-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303A1AFC24EE7AB9007ED513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303A1B3424F0175A007ED513 /* ADService.swift in Sources */,
+				303A1B1D24EEE92C007ED513 /* UIViewController+Alert.swift in Sources */,
+				303A1B3A24F023B7007ED513 /* UIApplication+Extension.swift in Sources */,
+				303A1B3624F017D2007ED513 /* InterstialAD.swift in Sources */,
+				303A1B3824F01B81007ED513 /* WebViewBridge.swift in Sources */,
+				30EF8C5224F07FD200B565FE /* RewardedVideoAD.swift in Sources */,
+				303A1B2324EF0EAB007ED513 /* ReachabilityHandler.swift in Sources */,
+				303A1B0824EE7ABA007ED513 /* MainViewController.swift in Sources */,
+				303A1B0424EE7ABA007ED513 /* AppDelegate.swift in Sources */,
+				303A1B1A24EE7E6C007ED513 /* API.swift in Sources */,
+				303A1B2F24EFDCB4007ED513 /* Purchase.swift in Sources */,
+				30CD8D3424F44F6300F6F66A /* CaseRoyaleWebBridge.swift in Sources */,
+				303A1B2624EF16BB007ED513 /* Reachability.swift in Sources */,
+				30CD8D3124F3DA5800F6F66A /* YandexMetricaAnalytics.swift in Sources */,
+				30EF8C5524F0830E00B565FE /* BillingService.swift in Sources */,
+				303A1B3124EFDDA8007ED513 /* Typealias.swift in Sources */,
+				30CD8D2F24F3DA1D00F6F66A /* Analytics.swift in Sources */,
+				303A1B2524EF0FD8007ED513 /* SetupService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		303A1B0924EE7ABA007ED513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303A1B0A24EE7ABA007ED513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303A1B0E24EE7ABC007ED513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303A1B0F24EE7ABC007ED513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303A1B1224EE7ABC007ED513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303A1B1324EE7ABC007ED513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303A1B1524EE7ABC007ED513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0AA1BDD74774EADD13A92E /* Pods-ios-web-client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V9D4624VZ;
+				INFOPLIST_FILE = "ios-web-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "apescodes.test.ios-web-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303A1B1624EE7ABC007ED513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E404ADA46017520D3C449717 /* Pods-ios-web-client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V9D4624VZ;
+				INFOPLIST_FILE = "ios-web-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "apescodes.test.ios-web-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303A1AFB24EE7AB9007ED513 /* Build configuration list for PBXProject "ios-web-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303A1B1224EE7ABC007ED513 /* Debug */,
+				303A1B1324EE7ABC007ED513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303A1B1424EE7ABC007ED513 /* Build configuration list for PBXNativeTarget "ios-web-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303A1B1524EE7ABC007ED513 /* Debug */,
+				303A1B1624EE7ABC007ED513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303A1AF824EE7AB9007ED513 /* Project object */;
+}
