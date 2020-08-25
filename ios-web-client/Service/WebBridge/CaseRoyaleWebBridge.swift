@@ -21,7 +21,7 @@ enum ScriptMessage: String {
 
 final class CaseRoyaleWebBridge: WebViewBridge {
   
-  private let webEntryPoint = "nativeEntryPoint"//"webEntryPoint"
+  private let webEntryPoint = "platform"//"webEntryPoint"
   private let messages:[ScriptMessage] = [
     .showAds,
     .showInterstitialAds,
@@ -49,7 +49,7 @@ final class CaseRoyaleWebBridge: WebViewBridge {
   }
   
   override func emitEvent(message: String, _ parameter: String = "") {
-    let method = "this." + message // "emitEvent('" + message + "')" // ', '" + parameter  + "')" // window.platform.
+    let method = "window." + webEntryPoint + "emitEvent('" + message + "','" + parameter + "')"
     call(methodName: method)
   }
   
